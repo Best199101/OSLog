@@ -1,0 +1,27 @@
+PODS:
+  - FBRetainCycleDetector (0.1.4)
+  - OSLog (0.1.0):
+    - FBRetainCycleDetector
+    - Protobuf (= 3.9.2)
+  - Protobuf (3.9.2)
+
+DEPENDENCIES:
+  - OSLog (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBRetainCycleDetector
+    - Protobuf
+
+EXTERNAL SOURCES:
+  OSLog:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBRetainCycleDetector: 46f8179bbb1c587deee3ea838a1a3ee02acf5015
+  OSLog: 8a992b563abfde68f69e61a244870fb5bf0cba4b
+  Protobuf: 67fb42ba613def994e61854de2b3164f13790cc4
+
+PODFILE CHECKSUM: d77aaa6a620f7e330d7fc302b75db6ad32f0a1c4
+
+COCOAPODS: 1.8.4

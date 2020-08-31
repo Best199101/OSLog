@@ -1,0 +1,39 @@
+{
+  "name": "OSLog",
+  "version": "0.1.0",
+  "summary": "iOS Debugging Tool",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/jiexingtianxia/OSLog",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "952016281@qq.com": "952016281@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/jiexingtianxia/OSLog.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": [
+    "OSLog/Classes",
+    "OSLog/Classes/**/*.{h,m,mm,swift,c}"
+  ],
+  "public_header_files": "OSLog/Classes/**/*.h",
+  "resources": "OSLog/Classes/**/*.{png,xib,storyboard}",
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ],
+  "dependencies": {
+    "FBRetainCycleDetector": [
+
+    ],
+    "Protobuf": [
+      "3.9.2"
+    ]
+  }
+}

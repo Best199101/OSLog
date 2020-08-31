@@ -1,0 +1,6 @@
+framework module OSLog {
+  umbrella header "OSLog-umbrella.h"
+
+  export *
+  module * { export * }
+}
